@@ -12,8 +12,10 @@ public class Calculadora {
         double div=x/y;
     }
     
-    public double sumar(){
-        return sum;
+    public void sumar(double a, double b){
+        double c;
+         c=a+b
+            System.out.println(""+c);
     }
     public double restar(){
         return res;
