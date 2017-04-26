@@ -6,10 +6,14 @@ public class Calculadora {
         this.x=x;
         this.y=y;
         
-        double sum=x+y;
+         
+         double sum=x+y;
         double res=x-y;
         double multi=x*y;
         double div=x/y;
+         
+         
+        
     }
     
     public double sumar(){
