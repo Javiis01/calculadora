@@ -1,5 +1,8 @@
 package calculadora;
-
+/**
+ * ñksdjfldsjñ fjksdfh jksd fhjksdh fjksdh fkdj
+ * @author S1PC28
+ */
 public class Calculadora {
      double x,y;
     public calculadora(double x, double y){
