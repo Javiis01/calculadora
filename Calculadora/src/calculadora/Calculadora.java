@@ -1,11 +1,11 @@
 package calculadora;
 /**
- * ñksdjfldsjñ fjksdfh jksd fhjksdh fjksdh fkdj
+ 
  * @author S1PC28
  */
 public class Calculadora {
      double x,y;
-    public calculadora(double x, double y){
+    public Calculadora(){
         this.x=x;
         this.y=y;
         
@@ -15,8 +15,10 @@ public class Calculadora {
         double div=x/y;
     }
     
-    public double sumar(){
-        return sum;
+    public void sumar(double x, double y){
+        double z;
+        z=x+y;
+        System.out.println(""+x+y+"="+z);
     }
     public double restar(){
         return res;
